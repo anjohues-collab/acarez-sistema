@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236380104834",
+    "project_id": "acarez-logistica",
+    "storage_bucket": "acarez-logistica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236380104834:android:3fbfc166d92fe12a4a6c9b",
+        "android_client_info": {
+          "package_name": "com.example.acarez_driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKBRsoU9IxvHmFOeBLmRSIrcm1EQYLii8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

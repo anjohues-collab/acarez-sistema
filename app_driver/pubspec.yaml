@@ -1,0 +1,63 @@
+name: acarez_driver
+description: "Aplicación para choferes de ACAREZ LOGÍSTICA"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paquetes para que la app funcione
+  geolocator: ^14.0.2
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  geocoding: ^4.0.0
+  intl: any
+
+  # Conexión con servidor
+  http: ^0.13.6
+
+  # Firebase (si decides usarlo después)
+  firebase_core: ^4.6.0
+  cloud_firestore: ^6.2.0
+  firebase_storage: ^13.2.0
+
+  # Mapas
+  google_maps_flutter: ^2.17.0
+
+  # Supabase
+  supabase_flutter: ^2.8.0
+
+  # 👇 👇 👇 NUEVAS DEPENDENCIAS 👇 👇 👇
+  # Base de datos local (SQLite)
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  path: ^1.9.0
+  
+  # Preferencias compartidas
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Herramienta para iconos
+  flutter_launcher_icons: ^0.13.1
+
+# CONFIGURACIÓN DEL ICONO DE ACAREZ
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/acarez_2.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # Registro de la carpeta de imágenes
+  assets:
+    - assets/images/acarez_2.png

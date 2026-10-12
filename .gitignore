@@ -1,0 +1,15 @@
+# Flutter (dentro de app_driver)
+app_driver/build/
+app_driver/.dart_tool/
+app_driver/.flutter-plugins
+app_driver/.flutter-plugins-dependencies
+
+# PHP / Backend
+backend/vendor/
+backend/.env
+backend/uploads/*
+!backend/uploads/.htaccess
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
